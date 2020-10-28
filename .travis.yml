@@ -34,7 +34,7 @@ android:
     #- sys-img-armeabi-v7a-android-17
 
 before_script:
-  - yes | sdkmanager "platform;android-29"
+  - yes | sdkmanager "platforms;android-29"
 
 script:
   - chmod +x ./gradlew
